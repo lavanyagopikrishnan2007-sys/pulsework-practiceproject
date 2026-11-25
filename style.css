@@ -1,0 +1,90 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(
+        to right,
+        #800020 50%,
+        #fffaf8 50%
+    );
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background: #ffffff;
+    width: 90%;
+    max-width: 460px;
+    padding: 40px;
+    text-align: center;
+    border-radius: 18px;
+    box-shadow: 0 10px 35px rgba(60, 0, 20, 0.2);
+}
+
+/* Main heading */
+h1 {
+    font-family: Georgia, serif;
+    color: #800020;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+/* Welcome section */
+.welcome {
+    background: #800020;
+    color: white;
+    padding: 16px;
+    border-radius: 10px;
+    font-size: 15px;
+    margin-bottom: 25px;
+}
+
+/* Status banner */
+.banner {
+    padding: 20px;
+    margin-bottom: 25px;
+    border-radius: 10px;
+    color: white;
+    font-weight: 600;
+    font-size: 17px;
+    letter-spacing: 0.5px;
+    transition: 0.3s ease;
+}
+
+/* Different shades of red */
+.online {
+    background-color: #64172D;
+}
+
+.checking {
+    background-color: #B85C70;
+}
+
+.offline {
+    background-color: #8B0000;
+}
+
+/* Button */
+button {
+    background-color: #800020;
+    color: white;
+    border: none;
+    padding: 15px 25px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 600;
+    transition: 0.3s ease;
+}
+
+button:hover {
+    background-color: #5A0018;
+    transform: translateY(-2px);
+}
